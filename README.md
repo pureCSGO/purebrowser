@@ -1,5 +1,5 @@
 # pureBrowser
-![GitHub Release](https://img.shields.io/github/v/release/purecsgo/purebrowser) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/purecsgo/purebrowser/total)
+![GitHub Release](https://img.shields.io/github/v/release/purecsgo/purebrowser) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/purecsgo/purebrowser/total)  
 **Remove spam game servers easily within Steam!**
 
 > NOTE: This plugin needs [Millennium (SteamBrew)](https://steambrew.app/), a Steam framework commonly used for themes but also supports frontend/backend plugins 
@@ -8,9 +8,7 @@
 
 Anyone who has played CS:GO on the new app ID has seen the large influx of bullshit servers making it impossible to find legit servers to play on. The community has developed some third-party browser websites to avoid this. This project stands apart as it targets the spam directly within the Steam client using an [open-source plugin](https://github.com/pureCSGO/purebrowser/tree/main/frontend).
 
-**LINKS**
-For download, instructions and submitting improvements or bugs: [https://github.com/pureCSGO/purebrowser](https://github.com/pureCSGO/purebrowser)
-
+**LINKS**  
 For help with Millennium: https://discord.gg/NcNMP6r2Cw
 
 For help with this plugin: https://discord.gg/TgS7jV7A3r
@@ -18,8 +16,7 @@ For help with this plugin: https://discord.gg/TgS7jV7A3r
 We also offer our own gameservers with an upcoming in-depth rankings and statistics system: [https://purecsgo.com](https://purecsgo.com)
 
 
-
-**HOW IT WORKS**  
+## HOW IT WORKS  
 The plugin uses JavaScript to hook into SteamClient.ServerBrowser and processes each onServer callback during CreateServerListRequest. Each server is ran thru a series of checks which can be configured to your liking. The server is removed once it triggers a single check. Below is a breakdown of the current checks implemented and their hit rates. When used in conjunction, spam essentially disappears.
 
 * Emoji hostname - \~7500/9999 (75%)
@@ -29,7 +26,7 @@ The plugin uses JavaScript to hook into SteamClient.ServerBrowser and processes 
 * IP concentration\*\*\* - \~7000/9999 (70%)
 * Subnet concentration\*\*\* - \~6000/9999 (60%)
 
-**LEGIT: \~1000 servers**
+LEGIT: **\~1000 servers**
 
 \*Using [blocklist](https://github.com/pureCSGO/purebrowser/blob/main/docs/blocklist.txt) targeting specific words, paste into plugin configuration
 
@@ -44,7 +41,6 @@ The plugin uses JavaScript to hook into SteamClient.ServerBrowser and processes 
 
 
 ## INSTALLATION
-
 > 5-10 minutes to install, very simple
 
 1. Download and install [Millennium (SteamBrew)](https://streambrew.app) if not already
