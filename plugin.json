@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+    "name": "purebrowser",
+    "common_name": "pureBrowser",
+    "description": "Eliminates spam servers from the Steam game server browser at the master server level",
+    "version": "1.0.0",
+    "useBackend": false,
+    "frontend": "frontend"
+}

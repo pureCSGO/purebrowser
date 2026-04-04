@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": "frontend",
+        "outDir": ".prod/purebrowser/.millennium/Dist",
+        "module": "ESNext",
+        "target": "ES2020",
+        "jsx": "react",
+        "declaration": false,
+        "ignoreDeprecations": "6.0",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "lib": ["ES2020", "DOM"]
+    },
+    "include": ["frontend/**/*"],
+    "exclude": ["node_modules"]
+}
