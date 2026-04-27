@@ -1,5 +1,6 @@
 # pureBrowser
-![GitHub Release](https://img.shields.io/github/v/release/purecsgo/purebrowser) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/purecsgo/purebrowser/total)  
+![GitHub Release](https://img.shields.io/github/v/release/purecsgo/purebrowser) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/purecsgo/purebrowser/latest/total)
+  
 **Remove spam game servers easily within Steam!**
 
 > NOTE: This plugin needs [Millennium (SteamBrew)](https://steambrew.app/), a Steam framework commonly used for themes but also supports frontend/backend plugins 
